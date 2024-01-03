@@ -1,7 +1,7 @@
 # 0x00. Python - Hello, World
 Here is where I start to learn about the python programming language.
 
-- Some of the ovjectives of this learning includes:
+# Some of the ovjectives of this learning includes:
 - Why Python programming is awesome
 - Who created Python
 - Who is Guido van Rossum
