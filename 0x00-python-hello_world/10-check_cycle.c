@@ -2,7 +2,6 @@
 
 /**
  * check_cycle - checks cycle in a linked list
- *
  * @list: head of the linked list
  *
  * Return: 1 if it has cycle 0, otherwise
@@ -11,6 +10,9 @@ int check_cycle(listint_t *list)
 {
 	listint_t *t = list;
 	listint_t *h = list->next;
+	
+	if (list == NULL)
+		return (0);
 
 	while (h != NULL && h->next != NULL)
 	{
