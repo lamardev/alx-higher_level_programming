@@ -8,11 +8,10 @@
  */
 int check_cycle(listint_t *list)
 {
+	if (list)
+	{
 	listint_t *t = list;
 	listint_t *h = list->next;
-	
-	if (list == NULL)
-		return (0);
 
 	while (h != NULL && h->next != NULL)
 	{
@@ -22,6 +21,7 @@ int check_cycle(listint_t *list)
 		h = h->next;
 		/* Move hare twice ahead*/
 		h = h->next;
+	}
 	}
 
 	return (0);
